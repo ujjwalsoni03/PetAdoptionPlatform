@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body {
+    background-color: #2898cf;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #e16c0d;
+    font-family: "Lilita One";
+    margin-bottom: 200px;
+    text-shadow: 0 0 7px #0022ff, 0 0 5px #aa00ff;
+}
+h2 {
+    color: #066ddb;
+    font-family: "DM Sans";
+    font-weight: 800;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.632);
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+}
+
+button {
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#dashboard {
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+}

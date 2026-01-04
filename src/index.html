@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Platform</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <h1 class="display-4 animate__animated animate__fadeInDown">Welcome to the Pet Adoption Platform!</h1>
+        <div class="login-container mt-4 animate__animated animate__fadeInUp">
+            <h2 class="mb-4">Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>  
+            </form>
+        </div>
+        <div id="dashboard" class="mt-5" style="display: none;">
+            <h2 id="dashboardTitle"></h2>
+            <div id="dashboardContent" class="mt-3"></div>
+            <button class="btn btn-secondary mt-4" onclick="logout()">Logout</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
